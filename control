@@ -1,0 +1,16 @@
+Source: inithook-scripts
+Section: admin
+Priority: extra
+Maintainer: Peter Foley <peter@ifoley.id.au>
+Build-Depends: debhelper (>= 8.0.0)
+Standards-Version: 3.9.3
+Homepage: https://github.com/pjfoley/inithook-scripts/releases
+#Vcs-Git: git://git.debian.org/collab-maint/inithook-scripts.git
+#Vcs-Browser: http://git.debian.org/?p=collab-maint/inithook-scripts.git;a=summary
+
+Package: inithook-scripts
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Description: Short script files which can be used to configure a system
+ This package provides some handy bash script to assist
+ with setting up your system.

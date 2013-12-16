@@ -1,0 +1,2 @@
+usr/lib/inithook-scripts/firstboot.d
+usr/lib/inithook-scripts/everyboot.d

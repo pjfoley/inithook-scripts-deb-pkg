@@ -1,0 +1,3 @@
+bin usr/lib/inithook-scripts
+example_script_defaults usr/lib/inithook-scripts
+scripts usr/lib/inithook-scripts

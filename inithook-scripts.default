@@ -1,0 +1,13 @@
+# Defaults for inithook-scripts initscript
+# sourced by /etc/init.d/inithook-scripts
+# installed at /etc/default/inithook-scripts by the maintainer scripts
+
+#
+# This is a POSIX shell fragment
+#
+
+# Additional options that are passed to the Daemon.
+INITHOOKS_PATH=/usr/lib/inithook-scripts
+
+RUN_FIRSTBOOT=true
+REDIRECT_OUTPUT=false
